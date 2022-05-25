@@ -19,42 +19,6 @@ const auslink = document.querySelector("#auslink");
 
 
 
-noclick.addEventListener("click", (e) => {
-  if (noclick.classList.contains ("active")) {
-    e.preventDefault();
-  }
-})
-
-noclick2.addEventListener("click", (e) => {
-  if (noclick.classList.contains ("active")) {
-    e.preventDefault();
-  }
-})
-
-canlink.addEventListener("click", (e) => {
-	i=2;
-	clc();
-	sw();
-})
-
-zellink.addEventListener("click", (e) => {
-	i=3;
-	clc();
-	sw();
-})
-
-gblink.addEventListener("click", (e) => {
-	i=4;
-	clc();
-	sw();
-})
-
-auslink.addEventListener("click", (e) => {
-	i=1;
-	clc();
-	sw();
-})
-
 
 firstlayer2.addEventListener("click", (e) => {
   alert ("Над сайтом работали: Екатерина Цвирко, Лиана Верес, Саша Титова, Екатерина Ерофеенко, Павел Зенько. Менеджеры проекта: Полина Старостенко, Аня Лизура, Настя Семенова ")
@@ -204,3 +168,41 @@ function() {
     body.style.overflow = "scroll";
   }
 }, 100);
+
+
+noclick.addEventListener("click", (e) => {
+  if (noclick.classList.contains ("active")) {
+    e.preventDefault();
+  }
+})
+
+noclick2.addEventListener("click", (e) => {
+  if (noclick.classList.contains ("active")) {
+    e.preventDefault();
+  }
+})
+
+canlink.addEventListener("click", (e) => {
+	i=2;
+	clc();
+	sw();
+})
+
+zellink.addEventListener("click", (e) => {
+	i=3;
+	clc();
+	sw();
+})
+
+gblink.addEventListener("click", (e) => {
+	i=4;
+	clc();
+	sw();
+})
+
+auslink.addEventListener("click", (e) => {
+	i=1;
+	clc();
+	sw();
+})
+
